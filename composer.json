@@ -1,0 +1,32 @@
+{
+    "name": "melsaka/voteable",
+    "description": "A Laravel package that allows you to easily add countries, states and cities to your Laravel applications.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Melsaka\\WorldCountries\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "elsaka",
+            "email": "sakaz8050@gmail.com",
+            "homepage": "https://github.com/melsaka",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^10.10",
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Melsaka\\WorldCountries\\WorldCountriesServiceProvider"
+            ]
+        }
+    }
+}
