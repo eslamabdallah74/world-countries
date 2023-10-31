@@ -1,5 +1,5 @@
 {
-    "name": "melsaka/voteable",
+    "name": "melsaka/world-countries",
     "description": "A Laravel package that allows you to easily add countries, states and cities to your Laravel applications.",
     "type": "library",
     "license": "MIT",
